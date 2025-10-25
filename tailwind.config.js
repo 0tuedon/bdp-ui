@@ -4,6 +4,9 @@ module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
+      fontFamily: {
+        quicksand: ['Quicksand', 'sans-serif'],
+      },
       boxShadowColor: {
         "dark-light": "rgba(255, 255, 255, 0.05)"
       },
