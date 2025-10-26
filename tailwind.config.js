@@ -1,14 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: "class",
-  content: ['./src/**/*.{js,jsx,ts,tsx}'],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
       fontFamily: {
-        quicksand: ['Quicksand', 'sans-serif'],
+        quicksand: ["Quicksand", "sans-serif"],
       },
       boxShadowColor: {
-        "dark-light": "rgba(255, 255, 255, 0.05)"
+        "dark-light": "rgba(255, 255, 255, 0.05)",
       },
       colors: {
         bdp: {
@@ -29,6 +29,17 @@ module.exports = {
             300: "#FAA739",
           },
           otherLight: "var(--other-light-text)",
+        },
+        tag: {
+          pink: "#EC4182",
+          "light-pink": "#F5D7E2",
+          blue: "#396BEB",
+          "light-blue": "#D1E2F3",
+          purple: "#7762B9",
+          "light-purple": "#CABFEF",
+          yellow: "#CC7400",
+          "light-yellow": "#ECD4B5",
+          "lighter-text": "#F6F0E6",
         },
       },
     },
