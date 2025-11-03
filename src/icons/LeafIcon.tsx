@@ -8,7 +8,7 @@ const LeafIcon = ({
   pathProps,
   ...props
 }: SVGProps<SVGSVGElement> & { pathProps?: SVGProps<SVGPathElement> }) => {
-  // height is destructed and unused, scaling is defined by width
+  // height is destructed and unused, scaling is defined by width W
   return (
     <svg
       width={width}
