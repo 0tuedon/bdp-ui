@@ -15,7 +15,7 @@ const Template: StoryFn<CardProps> = (args) => <BDPCard {...args} />;
 export const Default = Template.bind({});
 Default.args = {
   bannerColor: "#D5BBA4",
-  logo: "whitepaper.png",
+  logo: "assets/images/whitepaper.png",
   difficulty: "easy",
   title: "Bitcoin TLDR",
   description:
@@ -26,7 +26,7 @@ export const MediumDifficulty = Template.bind({});
 
 MediumDifficulty.args = {
   bannerColor: "#0E9158",
-  logo: "good-first-issues.png",
+  logo: "/assets/images/good-first-issues.png",
   difficulty: "medium",
   title: "Good first issues",
   byBDP: true,
